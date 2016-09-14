@@ -281,8 +281,8 @@ class PubnubCrypto3():
 class PubnubBase(object):
     def __init__(
         self,
-        publish_key,
         subscribe_key,
+        publish_key=None,
         secret_key=False,
         cipher_key=False,
         auth_key=None,
